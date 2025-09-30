@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kancharlapalli Eshwar Krishna | Software Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="dark-mode">
 
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-text">
+            <span>Hello</span>
+            <span>नमस्ते</span>
+            <span>హలో</span>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
     <div class="cursor"></div>
 
+    <!-- Header -->
     <header>
         <div class="logo">
             <h1>KEK</h1>
@@ -22,6 +33,8 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -37,7 +50,9 @@
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="home" class="hero">
+            <div id="particles-js"></div>
             <div class="hero-text">
                 <h1 class="name-reveal">Kancharlapalli Eshwar Krishna</h1>
                 <p class="subtitle-reveal">Full-Stack Developer | Cloud Enthusiast | Problem Solver</p>
@@ -46,16 +61,22 @@
                     <a href="eshwarkrishnakancharlapalli_microsoft_SWE-2.pdf" download class="cta-button secondary">Download Resume</a>
                 </div>
             </div>
-            <div id="particles-js"></div>
         </section>
 
+        <!-- About Section -->
         <section id="about" class="content-section">
             <h2 class="section-title">About Me</h2>
             <div class="about-container">
-                <p>As a Computer Science Engineering student with a passion for innovation, I specialize in full-stack development and cloud computing. I excel at transforming complex problems into high-quality software solutions, leveraging strong foundations in data structures and algorithms. I am particularly enthusiastic about harnessing Microsoft technologies like Azure and AI/ML to build applications that empower users and drive progress. My collaborative spirit and clear communication skills enable me to thrive in team environments and bridge the gap between technical and non-technical stakeholders.</p>
+                <div class="about-image">
+                    <img src="https://placehold.co/350x350/0a192f/00bfff?text=Eshwar" alt="Kancharlapalli Eshwar Krishna">
+                </div>
+                <div class="about-text">
+                     <p>As a Computer Science Engineering student with a passion for innovation, I specialize in full-stack development and cloud computing. I excel at transforming complex problems into high-quality software solutions, leveraging strong foundations in data structures and algorithms. I am particularly enthusiastic about harnessing Microsoft technologies like Azure and AI/ML to build applications that empower users and drive progress. My collaborative spirit and clear communication skills enable me to thrive in team environments and bridge the gap between technical and non-technical stakeholders.</p>
+                </div>
             </div>
         </section>
 
+        <!-- Skills Section -->
         <section id="skills" class="content-section">
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
@@ -68,10 +89,12 @@
             </div>
         </section>
         
+        <!-- Projects Section -->
         <section id="projects" class="content-section">
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <img src="https://placehold.co/600x400/0a192f/ccd6f6?text=ClauseNaut" alt="ClauseNaut Project Thumbnail" class="project-image">
                     <div class="project-content">
                         <h3>ClauseNaut LLM Document Query System</h3>
                         <p>Developed a Retrieval-Augmented Generation (RAG) system with Google Gemini and LangChain to automate claim adjudication. It streamlines verification by generating structured JSON outputs, significantly reducing manual effort.</p>
@@ -80,25 +103,28 @@
                     </div>
                 </div>
                 <div class="project-card">
+                     <img src="https://placehold.co/600x400/0a192f/ccd6f6?text=iPlay" alt="iPlay Project Thumbnail" class="project-image">
                      <div class="project-content">
                         <h3>iPlay Social Music Streaming Platform</h3>
                         <p>A full-stack MERN platform featuring real-time synchronized listening rooms with live chat via Socket.io. Implemented secure JWT authentication and a CI/CD pipeline with Docker and GitHub Actions for scalable deployment.</p>
-                        <div class="tech-stack"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Socket.io</span><span>Docker</span></div>
+                        <div class="tech-stack"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Docker</span></div>
                         <div class="project-links"><a href="https://github.com/EshwarKrishnaK/iPlay" target="_blank"><i class="fab fa-github"></i> View Code</a></div>
                     </div>
                 </div>
                 <div class="project-card">
+                     <img src="https://placehold.co/600x400/0a192f/ccd6f6?text=Way2Predict" alt="Way2Predict Project Thumbnail" class="project-image">
                      <div class="project-content">
                         <h3>Way2Predict College Prediction System</h3>
-                        <p>An award-winning, data-driven platform built with PHP and deployed on Microsoft Azure. It provides personalized college admission insights for AP EAPCET counseling using historical cutoff data. Won 1st Prize at URCET's yoUR fest.</p>
+                        <p>An award-winning, data-driven platform built with PHP and deployed on Microsoft Azure. It provides personalized college admission insights for AP EAPCET counseling using historical cutoff data.</p>
                         <div class="tech-stack"><span>PHP</span><span>MySQL</span><span>Azure</span><span>HTML/CSS</span></div>
                         <div class="project-links"><a href="https://github.com/EshwarKrishnaK/Way2Predict" target="_blank"><i class="fab fa-github"></i> View Code</a></div>
                     </div>
                 </div>
                  <div class="project-card">
+                     <img src="https://placehold.co/600x400/0a192f/ccd6f6?text=ATM+System" alt="ATM Management System Thumbnail" class="project-image">
                      <div class="project-content">
                         <h3>ATM Management System</h3>
-                        <p>A secure Java application simulating real-world ATM functionalities. Engineered with robust exception handling and transaction logging to ensure data accuracy and security, demonstrating strong object-oriented programming skills.</p>
+                        <p>A secure Java application simulating real-world ATM functionalities. Engineered with robust exception handling and transaction logging to ensure data accuracy and security.</p>
                         <div class="tech-stack"><span>Java</span><span>OOP</span><span>File I/O</span></div>
                         <div class="project-links"><a href="https://github.com/EshwarKrishnaK/ATM-Management" target="_blank"><i class="fab fa-github"></i> View Code</a></div>
                     </div>
@@ -106,55 +132,75 @@
             </div>
         </section>
 
+        <!-- Experience Section -->
         <section id="experience" class="content-section">
-            <h2 class="section-title">Experience & Achievements</h2>
-            <div class="experience-container">
-                <div class="timeline">
-                     <div class="timeline-item">
-                        <div class="timeline-content">
-                            <h3>AI-ML Virtual Intern</h3>
-                            <p class="company">AICTE, EduSkills, AWS Academy | Remote</p>
-                            <span class="date">Jun 2024 – Present</span>
-                            <ul>
-                                <li>Applied machine learning by developing supervised and unsupervised models based on the AWS Academy curriculum to address practical customer scenarios.</li>
-                                <li>Gained hands-on experience with AWS services and explored Microsoft Azure Machine Learning for comparable solution development.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <h3>Network Technician Intern</h3>
-                            <p class="company">Bharat Sanchar Nigam Limited (BSNL) | Vijayawada, AP</p>
-                            <span class="date">Dec 2023 – May 2024</span>
-                            <ul>
-                                <li>Optimized network performance by configuring and maintaining devices and servers, leading to improved system connectivity and uptime.</li>
-                                <li>Enhanced security and reliability by proactively detecting and mitigating network vulnerabilities.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="achievements-certs">
-                    <div class="certs-card">
-                        <h3>Certifications</h3>
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                 <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AI-ML Virtual Intern</h3>
+                        <p class="company">AICTE, EduSkills, AWS Academy | Remote</p>
+                        <span class="date">Jun 2024 – Present</span>
                         <ul>
-                            <li><i class="fab fa-aws"></i> AWS Certified: Cloud Practitioner</li>
-                            <li><i class="fab fa-microsoft"></i> Microsoft Certified: Azure Fundamentals (AZ-900)</li>
-                            <li><i class="fas fa-network-wired"></i> Cisco Networking Essentials</li>
-                            <li><i class="fas fa-shield-alt"></i> Cisco Endpoint Security</li>
-                             <li><i class="fab fa-python"></i> Python (Basic) - HackerRank</li>
+                            <li>Applied machine learning by developing supervised and unsupervised models based on the AWS Academy curriculum to address practical customer scenarios.</li>
+                            <li>Gained hands-on experience with AWS services and explored Microsoft Azure Machine Learning for comparable solution development.</li>
                         </ul>
                     </div>
-                     <div class="achievements-card">
-                        <h3>Hackathon Awards</h3>
-                         <ul>
-                            <li><i class="fas fa-trophy"></i> 1st Prize, URCET's yoUR fest (Way2Predict)</li>
-                            <li><i class="fas fa-award"></i> 3rd Prize, Aditya Engineering College (Way2Predict)</li>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Network Technician Intern</h3>
+                        <p class="company">Bharat Sanchar Nigam Limited (BSNL) | Vijayawada, AP</p>
+                        <span class="date">Dec 2023 – May 2024</span>
+                        <ul>
+                            <li>Optimized network performance by configuring and maintaining devices and servers, leading to improved system connectivity and uptime.</li>
+                            <li>Enhanced security and reliability by proactively detecting and mitigating network vulnerabilities.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="content-section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-card"><h3><i class="fab fa-aws"></i> AWS Cloud Practitioner</h3></div>
+                <div class="cert-card"><h3><i class="fab fa-microsoft"></i> Azure Fundamentals</h3></div>
+                <div class="cert-card"><h3><i class="fas fa-network-wired"></i> Cisco Networking Essentials</h3></div>
+                <div class="cert-card"><h3><i class="fas fa-shield-alt"></i> Cisco Endpoint Security</h3></div>
+                <div class="cert-card"><h3><i class="fab fa-python"></i> Python (Basic) - HackerRank</h3></div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="content-section">
+            <h2 class="section-title">Honors & Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h4>1st Prize Winner</h4>
+                    <p>URCET's yoUR fest for the Way2Predict project.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-award"></i>
+                    <h4>3rd Prize Winner</h4>
+                    <p>Aditya Engineering College's Poly Veda hackathon.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-users"></i>
+                    <h4>National Finalist</h4>
+                    <p>National Children's Science Congress.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Round 2 Qualifier</h4>
+                    <p>TVS Hackathon, demonstrating innovative problem-solving.</p>
+                </div>
+            </div>
+        </section>
         
+        <!-- Education Section -->
         <section id="education" class="content-section">
              <h2 class="section-title">Education</h2>
              <div class="education-container">
@@ -171,22 +217,24 @@
              </div>
         </section>
 
-
+        <!-- Contact Section -->
         <section id="contact" class="content-section">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-container">
-                <p>I'm currently seeking new opportunities and am open to collaboration. Whether you have a question or just want to connect, feel free to reach out. I'll do my best to get back to you!</p>
-                <a href="mailto:eswarlazypanda@gmail.com" class="contact-button">Say Hello <i class="fas fa-paper-plane"></i></a>
+                <p>I'm currently seeking new opportunities and am open to collaboration. Whether you have a question or just want to connect, feel free to reach out. My digital door is always open!</p>
+                <div class="contact-socials">
+                    <a href="https://github.com/EshwarKrishnaK" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/eshwar-krishna-kancharlapalli/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/eswarlazypanda/" target="_blank" aria-label="LeetCode"><i class="fas fa-keyboard"></i></a>
+                    <a href="https://www.hackerrank.com/profile/eswarlazypanda" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://www.codechef.com/users/eshwarlazy" target="_blank" aria-label="CodeChef"><i class="fas fa-code"></i></a>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <div class="footer-social-links">
-            <a href="https://www.linkedin.com/in/eshwar-krishna-kancharlapalli/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/EshwarKrishnaK" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://leetcode.com/eswarlazypanda/" target="_blank" aria-label="LeetCode"><i class="fas fa-keyboard"></i></a>
-        </div>
         <p>&copy; 2025 Kancharlapalli Eshwar Krishna. All Rights Reserved.</p>
     </footer>
 
