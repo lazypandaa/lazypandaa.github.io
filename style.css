@@ -240,7 +240,7 @@ main { padding: 0 5%; }
 }
 .about-image img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 15px;
     border: 5px solid var(--primary-color);
     box-shadow: 0 0 25px var(--shadow-color);
 }
